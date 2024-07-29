@@ -1,0 +1,290 @@
+/* for section1 */
+.section1{
+  background-color:rgb(90, 87, 10);
+  color: #fff;
+ 
+}
+/* for navbar container */
+.Nav{
+  padding: 10px;
+  height: 100%;
+}
+.NavBar{
+   display: flex;
+  flex-wrap: wrap;
+}
+/* for logo */
+.col-1 #logo{
+  padding: 10px;
+  font-size: 25px;
+}
+/* for search box */
+#searchBox{
+  padding: 10px;
+}
+#searchBox1{
+  padding: 0px;
+}
+.searchBoxIn{
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+#searchIcon{
+  padding: 0px;
+  float: left;
+}
+.searchIconBt{
+  height: 100%;
+  border: none;
+}
+/* for log in button */
+#logIn{
+  height: 100%;
+  border: none;
+  background-color: transparent;
+  color: #fff;
+}
+/* for cart button */
+.Cart{
+  height: 100%;
+  border: none;
+  background-color: transparent;
+  color: #fff;
+}
+
+/****************End section1 nav bar*****************/
+
+/* for section2 */
+.section2{
+ background-color: rgb(77, 94, 15);
+ transition: 0.3s;
+ border-bottom: 2px black solid;
+}
+
+#products > button{
+  border: none;
+  background-color: transparent;
+  color: #fff;
+}
+
+
+/*****************End of Section2**********************************/
+
+/* for section3 */
+.section3{
+  /* height: 1000px; */
+  margin: 2px 0px 2px 0px;
+   padding: 0px;
+}
+#slider{
+  padding: 0px;
+}
+.carousel{
+  padding: 0px;
+  width: 100%;
+}
+/* for tha img in the slider */
+
+/**********************End of section3****************************/
+
+/* for section4 */
+.section4{
+  border-bottom: 2px black solid;
+}
+#flexbox{
+  display: flex;
+  flex-wrap:wrap; 
+  justify-content: space-evenly;
+}
+#flexbox > div{
+  width: 400px;
+  background-color: bisque;
+  margin: 20px;
+}
+#flexbox > div h1 {
+  width: 100%;
+  text-align: center;
+}
+.b1{
+  display: flex;
+  flex-wrap: wrap;
+   justify-content: space-evenly;
+   
+}
+.b1 > div{
+ margin: 10px;
+}
+
+
+.b2{
+  display: flex;
+  flex-wrap: wrap;
+   justify-content: space-evenly;
+   
+}
+.b2 > div{
+ margin: 10px;
+}
+.b3{
+  display: flex;
+  flex-wrap: wrap;
+   justify-content: space-evenly;
+   
+}
+.b3 > div{
+ margin: 10px;
+}
+
+
+/************************End of the section4***************/
+
+
+/* for section5 */
+
+#fifty{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  overflow-x: scroll;
+}
+#fifty > div{
+  background-color: beige;
+  height: 100px;
+  margin: 20px;
+  width: 100px;
+}
+
+/*****************End of the section5 *********************/
+
+
+
+/* for section6 */
+
+#bestSelling{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+#bestSelling > div{
+  margin: 20px;
+  width: 300px;
+  height: 200px;
+  background-color: rgb(193, 170, 170);
+}
+
+
+
+
+/* style for the log in form */
+/* styles.css */
+
+
+
+.overlay {
+    display: none; /* Hidden by default */
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure it's above other content */
+    
+}
+
+.overlay-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    width: 300px;
+    text-align: center;
+}
+label{
+  float: left;
+}
+#loginForm h2{
+  width: 100%;
+  text-align: center;
+}
+.closeBtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#password,
+#username {
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+#loginForm a{
+  padding: 5px;
+  width: 100%;
+  float:right;
+  text-align: right;
+}
+.submit {
+   width: 100%;
+    border: none;
+    margin: 8px;
+  
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+
+
+
+.overlay1 {
+    display: none; /* Hidden by default */
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure it's above other content */
+}
+.overlay1-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    width: 400px;
+    /* text-align: center; */
+}
+.closeBtn1 {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+#SignupForm input{
+  float: right;
+  margin-bottom: 8px;
+  width: 100%;
+
+}
+#SignupForm label{
+  float: left;
+  width: 100%;
+  
+}
+#SignupForm button{
+  width: 100%;
+}
